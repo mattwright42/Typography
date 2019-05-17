@@ -76,6 +76,11 @@
     U+FEFF, U+FFFD;
 }
 
+@font-face {
+  font-family: 'Croissant One';
+  src: url('../styles/fonts/CroissantOne-Regular.ttf');
+}
+
 html {
   font-size: 18px;
 }
@@ -271,6 +276,7 @@ footer .content {
   font-style: italic;
   color: #9b9b9b;
   line-height: 1.5;
+  font-family: 'Croissant One', 'Merriweather', serif;
 }
 
 footer p {
